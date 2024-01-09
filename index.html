@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>ROCK PAPER SCISSORS</h1>
+    <hr>
+    <main>
+        <div onclick="rockOption()" id="rock-element">
+            <h2>Rock</h2>
+            <img src="./fist.png" alt="rock-img">
+
+        </div>
+        <div onclick="paperOption()"  id="paper-element">
+            <h2>Paper</h2>
+            <img src="./paper.png" alt="paper-img">
+
+        </div>
+        <div onclick="scissorsOption()"  id="scissors-element">
+            <h2>Scissors</h2>
+            <img src="./scissors.png" alt="scissors-img">
+
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <h2>Computer's Choice:  <span> </span></h2>
+        </div>
+        <div id="result-container">
+            <p><b><span id="result"></span></p>
+        </div>
+
+            
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

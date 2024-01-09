@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(244, 165, 69);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 300px;
+    
+}
+
+main img{
+    width: 100px;
+}
+
+main div{
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+main div:hover{
+    cursor: pointer;
+    background-color: rgb(136, 82, 13);
+}
+
+/*This ends the main container*/
+
+footer div{
+    margin: 20px;
+    text-align: center;
+
+}
+
+#result-container{
+    font-size: 70px;
+    font-style: italic;
+}
